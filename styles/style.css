@@ -42,6 +42,15 @@ section {
   color: white;
 }
 
+#image-profile {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 10%,
+    rgba(252, 70, 135, 1) 94%
+  );
+}
+
 .logo {
   font-size: 3.5rem;
   color: #191f36;
@@ -58,7 +67,7 @@ section {
 }
 
 .navbar a:hover,
-.navbar a.active {
+.navbar a::active {
   color: #5981f4;
 }
 
@@ -128,9 +137,9 @@ span {
 }
 
 .social-media a:hover {
-  background: #5981f4 ;
-  border:#5981f4;
-  color:   #262840;
+  background: #5981f4;
+  border: #5981f4;
+  color: #262840;
   box-shadow: 0 0 1rem #5981f4;
 }
 
@@ -146,7 +155,7 @@ span {
   font-weight: 800;
   transition: 0.5s ease;
   color: white;
-  box-shadow:2px 2px 1em #5981f4 ;
+  box-shadow: 2px 2px 1em #5981f4;
 }
 
 .btn:hover {
@@ -158,7 +167,7 @@ span {
   justify-content: center;
   align-items: center;
   gap: 8rem;
-  background:#262840;
+  background: #262840;
 }
 
 .about-img img {
@@ -388,26 +397,26 @@ span {
   #menu-icon {
     display: block;
   }
-.navbar{
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 1rem 3%;
-  background: #262840;
-  border-top: .1rem solid rgba(0, 0, 0, .2);
-  box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
-  display: none;
-}
-.navbar.active{
-  display: block;
-}
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: #262840;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+  .navbar.active {
+    display: block;
+  }
 
-.navbar a{
-  display: block;
-  font-size: 2rem;
-  margin: 3rem 0;
-}
+  .navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
 
   .home {
     flex-direction: column;
@@ -443,25 +452,25 @@ span {
     grid-template-columns: repeat(2, 1);
   }
 }
-@media (max-width: 617px){
- .portfolio-container{
-  grid-template-columns: 1fr;
- }
- .home-img img{
-  width: 80vw;
-  margin-top: 8rem;
- }
- .about-img img{
-  width: 100vw;
-  margin-top: 4rem;
- }
+@media (max-width: 617px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+  }
+  .home-img img {
+    width: 80vw;
+    margin-top: 8rem;
+  }
+  .about-img img {
+    width: 100vw;
+    margin-top: 4rem;
+  }
 }
 
-@media(max-width: 450px){
- html{
-  font-size: 50%;
- }
- .contact form .input-box input{
-  width: 100%;
- }
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .contact form .input-box input {
+    width: 100%;
+  }
 }
