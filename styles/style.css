@@ -394,10 +394,16 @@ span {
   .footer {
     padding: 2rem 3%;
   }
+  #image-profile{
+    margin-left: 0;
+  }
 }
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
+  }
+  #image-profile{
+    margin-left: 0;
   }
   .navbar {
     position: absolute;
@@ -474,5 +480,8 @@ span {
   }
   .contact form .input-box input {
     width: 100%;
+  }
+  #image-profile{
+    margin-left: 0;
   }
 }
