@@ -49,6 +49,7 @@ section {
     rgba(63, 94, 251, 1) 10%,
     rgba(252, 70, 135, 1) 94%
   );
+  margin-left: 26rem;
 }
 
 .logo {
@@ -172,6 +173,7 @@ span {
 
 .about-img img {
   width: 28vw;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);;
 }
 .heading {
   text-align: center;
