@@ -56,9 +56,9 @@ ScrollReveal().reveal('.home-contact h1, about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-contact p,  .about-content', { origin: 'right' });
 
  let typed = new Typed('.text', {
-   strings: ['Full Stack Web Developer','Professional Coder', 'Programmer' ,'Typing Specialist In Visual Studio Code',],
-  typeSpeed: 100,
-  typeDelay: 40,
+   strings: ['Full Stack Web Developer','Professional Coder', 'Front-End Developer' ,'Typing Specialist In Visual Studio Code',],
+  typeSpeed: 30,
+   typeDelay: 30,
    loop:true,
  });
   
